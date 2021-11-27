@@ -1,68 +1,127 @@
 body {
-    background-color: royalblue;
+    background-color: rgb(160, 44, 98);
 }
 
 ol {
 	padding-left: 0;
     text-align: center;
+
 }
 
 .crumb {
     display: inline;
+    font-size: larger;
 }
 
 #textBox {
     position: relative;
-    left: 800px;
-    top: 10px;
+    left: 900px;
+    top: -35px;
+    border: dotted yellowgreen
 }
 
 h1 {
     color: pink;
     text-align: center;
+    position: relative;
+    top: -20px;
 }
+
+
+h1 {
+    
+    animation-name: spin;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear; 
+    /* transform: rotate(3deg); */
+     /* transform: rotate(0.3rad);/ */
+     /* transform: rotate(3grad); */ 
+     /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+
 
 h3 {
     display: inline;
+   
 }
  
 
 #skillsList {
  position: absolute;
- left: 60px;
+ left: 400px;
+ 
 }
+
 
 #interestList {
     position: absolute;
-    left: 400px;
+    left: 600px;
+    text-align: center;
 }
+
 
 #goalsList {
     position: absolute;
-    left: 600px;
+    left: 800px;
+    text-align: center;
 }
+p {
+    color: rgb(173, 228, 218);
+    text-align: center;
+    position:relative;
+    bottom: 50px;
+    font-family:fantasy
+}
+
+#firstList {
+    font-size: 20px;
+    position:relative;
+    bottom: 40px;
+}
+
+#secondList {
+    font-size: 20px;
+    position:relative;
+    bottom: 40px;
+}
+
+#thirdList {
+    font-size: 20px;
+    position:relative;
+    bottom: 40px;
+}
+
+
+
 
 
 #color {
 position:relative;
-top: 400px
+top: 250px;
+left: 400px;
 }
 
 #place {
 position:relative;
-top: 400px
+top: 250px;
+left: 440px;
 }
 
 #ritual {
 position: relative;
-top: 400px;
+top: 250px;
+left: 500px;
 }
-
-
-/* .btn {
-    background-color: yellow;
-    font-size: 15px;
-} */
 
 .flex-container {
     display:flex;
@@ -72,6 +131,38 @@ top: 400px;
     background-color: rgb(247, 247, 144);
     font-size: 20px;
 }
+
+#orchid{
+height: 200px;
+width: 200px;
+position: relative;
+top: 300px;
+left: 600px;
+border-radius: 8px;
+}
+
+#concert{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 300px;
+    left: 650px;
+}
+
+#wood{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 300px;
+    right: 50px;
+}
+
+/* .btn {
+    background-color: yellow;
+    font-size: 15px;
+} */
+
+
 
 /* .btn{
     /* display:flex; */

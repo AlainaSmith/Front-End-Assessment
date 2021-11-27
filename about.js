@@ -1,25 +1,30 @@
 const button = document.getElementById('Submit')
-
-
-const class0 = document.getElementsById('uno')
-const class1 = document.getElementById('dos')
-const class2 = document.getElementById('tres')
-
-
-
 const formSubmit = () => {
 	alert('Your form has been submitted!');
 	}
 	
 	button.addEventListener('click', formSubmit);
 
+const class0 = document.getElementsById('uno')
+const class1 = document.getElementById('dos')
+const class2 = document.getElementById('tres')
 
-const getComp = () => {
-	alert('You are awesome!');
+
+const showAlert = () => {
+	alert('hello')
 }
 
-class0.addEventListener('mouseover', getComp);
 
+
+// const getComp = () => {
+// 	alert('You are awesome!');
+// }
+
+// class0.addEventListener("mouseover", getComp);
+
+// 	const getCompy = () => {
+// document.getElementById("image")
+// 	}
 //NOTES: compliment not showing up
 
 
