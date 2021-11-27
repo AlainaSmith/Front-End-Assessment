@@ -1,0 +1,83 @@
+body {
+    background-color: royalblue;
+}
+
+ol {
+	padding-left: 0;
+    text-align: center;
+}
+
+.crumb {
+    display: inline;
+}
+
+#textBox {
+    position: relative;
+    left: 800px;
+    top: 10px;
+}
+
+h1 {
+    color: pink;
+    text-align: center;
+}
+
+h3 {
+    display: inline;
+}
+ 
+
+#skillsList {
+ position: absolute;
+ left: 60px;
+}
+
+#interestList {
+    position: absolute;
+    left: 400px;
+}
+
+#goalsList {
+    position: absolute;
+    left: 600px;
+}
+
+
+#color {
+position:relative;
+top: 400px
+}
+
+#place {
+position:relative;
+top: 400px
+}
+
+#ritual {
+position: relative;
+top: 400px;
+}
+
+
+/* .btn {
+    background-color: yellow;
+    font-size: 15px;
+} */
+
+.flex-container {
+    display:flex;
+}
+
+.flex-item {
+    background-color: rgb(247, 247, 144);
+    font-size: 20px;
+}
+
+/* .btn{
+    /* display:flex; */
+    
+    /* flex-direction:
+    flex-wrap: wrap;
+    justify-content: center;
+     align-items: center;
+}  */ 
