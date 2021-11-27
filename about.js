@@ -5,14 +5,22 @@ const formSubmit = () => {
 	
 	button.addEventListener('click', formSubmit);
 
-const class0 = document.getElementsById('uno')
-const class1 = document.getElementById('dos')
-const class2 = document.getElementById('tres')
 
+const class0 = document.querySelector('img')
 
 const showAlert = () => {
-	alert('hello')
+	alert('You are Awesome')
 }
+
+class0.addEventListener("mouseover", showAlert);
+
+
+
+// const mouseOver = () => {
+// 	alert('hello');
+// }
+
+
 
 
 
