@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: rgb(170, 46, 104);     /*Unable to move elements when resizing browser*/
+    background-color: rgb(224, 143, 85);     /*Unable to move elements when resizing browser*/
 }
 
 nav {
@@ -28,7 +28,7 @@ ol {
 }
 
 h1 {
-    color: pink;
+    color: rgb(48, 17, 88);
     text-align: center;
     position: relative;
     top: -20px;
@@ -83,7 +83,7 @@ h3 {
     text-align: center;
 }
 p {
-    color: rgb(173, 228, 218);
+    color: rgb(27, 32, 31);
     text-align: center;
     position:relative;
     bottom: 50px;
@@ -132,6 +132,7 @@ left: 500px;
 
 .flex-container {
     display:flex;
+  
 }
 
 .flex-item {
