@@ -1,5 +1,5 @@
 body {
-  background: #ddd;
+  background: rgb(78, 180, 149);
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
@@ -9,7 +9,13 @@ body {
 
 nav {
 	border-bottom: 2px solid orange;
+  
 }
+
+h1 {
+  text-align: center;
+}
+
 
 ol {
 	padding-left: 0;
@@ -18,6 +24,8 @@ ol {
 .crumb {
 	margin-right: 2em;
 	display: inline;
+  text-align: center;
+  margin: 50px;
 }
 
 a {
@@ -25,7 +33,7 @@ a {
 }
 
 a:visited {
-	color: crimson;
+	color: rgb(100, 58, 67);
 }
 
 
@@ -36,4 +44,23 @@ input {
 img {
 	max-width: 300px;
 }
+
+#parent {
+    width: 100%;
+    height: 90px;
+    white-space: nowrap;
+    /* overflow-x: auto; */
+}
+
+/* .child {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+   
+} */
+
+/* .child1 {
+	text-align: center;
+} */
+
 

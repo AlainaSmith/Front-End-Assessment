@@ -1,5 +1,11 @@
+
+
 body {
-    background-color: rgb(160, 44, 98);
+    background-color: rgb(170, 46, 104);     /*Unable to move elements when resizing browser*/
+}
+
+nav {
+	border-bottom: 2px solid orange;   /*Tried making border shorter, was not finding the correct way */
 }
 
 ol {
@@ -11,6 +17,7 @@ ol {
 .crumb {
     display: inline;
     font-size: larger;
+    margin-right: 2em;
 }
 
 #textBox {
@@ -130,6 +137,7 @@ left: 500px;
 .flex-item {
     background-color: rgb(247, 247, 144);
     font-size: 20px;
+    border-radius: 10px;
 }
 
 #orchid{
@@ -147,6 +155,7 @@ border-radius: 8px;
     position: relative;
     top: 300px;
     left: 650px;
+    border-radius: 8px;
 }
 
 #wood{
@@ -155,6 +164,7 @@ border-radius: 8px;
     position: relative;
     top: 300px;
     right: 50px;
+    border-radius: 8px;
 }
 
 /* .btn {

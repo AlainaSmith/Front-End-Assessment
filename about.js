@@ -6,13 +6,26 @@ const formSubmit = () => {
 	button.addEventListener('click', formSubmit);
 
 
-const class0 = document.querySelector('img')
+
+
+
+
+
+
+const catPic = document.querySelector('img')
 
 const showAlert = () => {
 	alert('You are Awesome')
 }
 
-class0.addEventListener("mouseover", showAlert);
+catPic.addEventListener("mouseover", showAlert);
+
+
+
+
+
+
+
 
 
 
